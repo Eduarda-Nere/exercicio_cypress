@@ -1,15 +1,12 @@
-🚀 Como executar os testes
+# 📋 Exercício Cypress
 
-🔧 Instalação
+Este projeto contém testes automatizados utilizando o **Cypress v12.6.0**.
 
+## 🚀 Como executar os testes
+
+### 🔧 Instalação
+
+```bash
 cd exercicio_cypress
 npm init --yes
 npm install --save-dev cypress@12.6.0
-
-▶️ Execução dos Testes
-
-Modo Headless: Sem interface visual
-npx cypress run --spec "cypress/e2e/contatos.cy.js"
-
-Modo Interativo: Para abrir a interface do Cypress e executar os testes visualmente
-npx cypress open
