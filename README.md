@@ -12,14 +12,14 @@ npm install --save-dev cypress@12.6.0
 
 ### ▶️ Execução dos Testes
 
-Modo Headless (sem interface visual)
+Modo Headless (sem interface visual)<br>
 Executa os testes diretamente no terminal, sem abrir a interface do Cypress:
 
 ```bash
 npx cypress run --spec "cypress/e2e/contatos.cy.js"
 ```
 
-Modo Interativo (com interface visual)
+Modo Interativo (com interface visual)<br>
 Abre a interface do Cypress para você visualizar e executar os testes manualmente:
 
 ```bash
